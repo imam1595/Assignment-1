@@ -92,6 +92,7 @@ nav{
     line-height: 24px;
     color: #FFFFFF;
     margin-bottom: 32px;
+
 }
 
 #hero-btn{
@@ -104,14 +105,22 @@ nav{
     height: 52px;
     border-radius: 4px;
     padding: 16px 12px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    border: none;
     
 }
 
-#hero-btn1{
+#hero-btn2{
     width: 198PX;
     height: 52PX;
     border-radius: 4px;
     padding: 16px 12px;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255, 0.767);
+    color: #FFFFFF;
     
 }
 
@@ -228,7 +237,7 @@ nav{
 }
 
 #challenge-container{
-    border: 4px solid red;
+    /* border: 4px solid red; */
     padding: 2px 120px 120px 120px;
     display: flex;
     justify-content: center;
@@ -236,19 +245,21 @@ nav{
 
 #challenge-container #challenge-box{
     padding: 80px 40px;
-    border: 4px solid pink;
+    /* border: 4px solid pink; */
     width: 65%;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center; */
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    background-color: #F7F6F2;
 }
 
 #challenge-box #challenge-h1{
     font-size: 48px;
     font-weight: bold;
     color: #001931;
-    /* margin-bottom: ; */
+    margin-bottom:16px
 }
 
 
@@ -256,8 +267,10 @@ nav{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
-    /* margin-bottom: ; */
+    margin-bottom: 16px;
 }
+
+
 
 #challenge-box #challenge-btn{
     padding: 16px 12px;
@@ -265,7 +278,12 @@ nav{
     background-color: #30B868;
     font-size: 16px;
     color: #FFFFFF;
-    margin: ;
+    margin-bottom:16px ;
+    width: 194px;
+    height: 52px;
+    display: flex;
+    justify-content: space-around;
+    border: none;
 }
 
 #challenge-box #challenge-h1{
@@ -276,16 +294,46 @@ nav{
 }
 
 .footer-cointainer{
-    border: 3px solid red;
-    background-color: #b1bbc5;
-    padding: 120px ;
-    /* display: flex;
-    justify-content: center; */
+    /* border: 3px solid red; */
+    background-color: #001931;
+    /* padding: 120px 120px 30px 120px ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 357px;
 }
 
 #footer-box{
-    border: 3px solid yellow;
-    /* display: flex;
-    justify-content: center; */
+    /* border: 3px solid yellow; */
+    width: 65%;
+    text-align: center;
+    padding-top: 100px;
+    
+    
+}
 
+#footer-box #footer-logo{
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+#social-links{
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+#footer-copyright{
+    border-top: 2px solid #E5E7EB;
+    padding: 40px;
+}
+
+#footer-copyright p{
+    
+    font-size: 18px;
+    line-height: 24px;
+    color: #FAFAFA;
+    margin-bottom: 2px;
 }
