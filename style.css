@@ -116,7 +116,8 @@ nav{
 }
 
 #fail-container{
-    border: 3px solid red;
+    /* border: 3px solid red; */
+    /* max-width: 1360px; */
     padding: 0px 120px;
     background-color: ;
     margin-bottom: 44px;
@@ -135,9 +136,11 @@ nav{
 
 #fail-heading p{
     margin-top: 10px;
+    margin-bottom: 20px;
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+
 }
 
 #fail-box{
@@ -177,3 +180,49 @@ nav{
     color: #627382;
 }
 
+#solution-container{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    
+    padding: 120px;
+    
+}
+
+#solution-container #sed-div{
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    gap: 60px;
+}
+
+#sed-div #solution-title{
+    font-size: 16px;
+    
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+
+#sed-div #solution-h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+#sed-div #solution-para{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 16px;
+}
+
+#sed-div ul li{
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+}
