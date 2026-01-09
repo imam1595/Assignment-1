@@ -11,6 +11,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     background-color: #FFFFFF;
+    padding: 25px;
     
 }
 
@@ -30,6 +31,7 @@ nav{
 #nav-link a{
     text-decoration: none;
     color: black;
+    font-size: 20px;
 }
 
 #nav-button{
@@ -108,7 +110,7 @@ nav{
     background-color: #30B868;
     color: #FFFFFF;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border: none;
     
 }
@@ -171,8 +173,8 @@ nav{
 
 .fail-card img{
     background-color: #F95555;
-    width: 60px;
-    /* height: 60px; */
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
 }
 
@@ -193,47 +195,68 @@ nav{
     border: 1px solid red;
     display: flex;
     justify-content: center;
+
     
-    padding: 120px;
+    padding: 120px 120px;
+    text-align: center;
     
 }
 
 #solution-container #sed-div{
-    /* border: 3px solid red; */
+    
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 65%;
-    gap: 60px;
+    gap: 100px;
+}
+
+#the-solution{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 20px;
 }
 
 #sed-div #solution-title{
-    font-size: 16px;
+    font-size: 30px;
     
     line-height: 20px;
     color: #469165;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
+    
+    text-align: start;
 }
 
 
 #sed-div #solution-h1{
-    font-size: 48px;
+    font-size: 70px;
     font-weight: bold;
     color: #001931;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
+    text-align: start;
 }
 
 #sed-div #solution-para{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
+    text-align: start;
 }
 
 #sed-div ul li{
     font-size: 16px;
     line-height: 20px;
     color: #001931;
+}
+
+
+
+#sed-div .CheckCirclec{
+    
+    display: flex;
+    justify-content: start;
 }
 
 #challenge-container{
@@ -267,9 +290,14 @@ nav{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
-    margin-bottom: 16px;
+    
 }
 
+#challenge-para2{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+}
 
 
 #challenge-box #challenge-btn{
@@ -278,12 +306,12 @@ nav{
     background-color: #30B868;
     font-size: 16px;
     color: #FFFFFF;
-    margin-bottom:16px ;
     width: 194px;
     height: 52px;
     display: flex;
     justify-content: space-around;
     border: none;
+    margin: 25px;
 }
 
 #challenge-box #challenge-h1{
@@ -326,7 +354,7 @@ nav{
 }
 
 #footer-copyright{
-    border-top: 2px solid #E5E7EB;
+    border-top: 2px solid #415070;
     padding: 40px;
 }
 
@@ -336,4 +364,23 @@ nav{
     line-height: 24px;
     color: #FAFAFA;
     margin-bottom: 2px;
+}
+
+#footer-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#footer-social div{
+    display: flex;
+    gap: 10px;
+}
+
+#footer-social img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    
 }
